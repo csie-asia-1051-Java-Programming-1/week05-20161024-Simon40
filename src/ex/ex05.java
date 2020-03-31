@@ -5,10 +5,18 @@
  * Author: 1050210XX 周永振老師
  */
 
+import java.util.Random;
 public class ex05 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Random r=new Random();
+		for(int x=1;x<=10;x++){
+	        for(int y=1;y<=10;y++){
+	        	System.out.print(r.nextInt(9));
+	        }
+	        System.out.println();
+	        }
 
 	}
 
